@@ -72,21 +72,11 @@
     },
     {
       "group": "Korean",
-      "pages": ["ko/index"]
-      ]
-    },
-    {
-      "group": "Software",
       "pages": [
-        "ko/software/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "ko/endpoint/get",
-        "ko/endpoint/create",
-        "ko/endpoint/delete"
+        {
+          "group": "환영합니다",
+          "pages": [{"ko/index"}]
+        }
       ]
     }
   ],
