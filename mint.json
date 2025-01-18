@@ -15,6 +15,14 @@
       "to": "#07C983"
     }
   },
+  "font": {
+    "headings": {
+      "family": "Pretendard"
+    },
+    "body": {
+      "family": "Pretenadrd"
+    }
+  }
   "topbarLinks": [
     {
       "name": "Home",
@@ -24,6 +32,9 @@
   "topbarCtaButton": {
     "name": "Community",
     "url": "https://discord.gg/8gXqzJBrBr"
+  },
+  "primaryTab": {
+    "name": "Information"
   },
   "tabs": [
     {
@@ -38,7 +49,7 @@
   "anchors": [ 
     {
       "name": "Home",
-      "icon": "home",
+      "icon": "house",
       "url": "https://yourexp.world"
     },
     {
@@ -54,20 +65,14 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Welcome",
       "pages": [
         "introduction"
       ]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "ko/essentials/markdown",
-        "ko/essentials/code",
-        "ko/essentials/images",
-        "ko/essentials/settings",
-        "ko/essentials/navigation",
-        "ko/essentials/reusable-snippets"
+      "group": "Korean",
+      "pages": ["ko/index"]
       ]
     },
     {
