@@ -17,75 +17,76 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Home",
+      "url": "https://yourexp.world"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Community",
+    "url": "https://discord.gg/8gXqzJBrBr"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Korean",
+      "url": "ko"
+    },
+    {
+      "name": "English",
+      "url": "en"
     }
   ],
-  "anchors": [
+  "anchors": [ 
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Home",
+      "icon": "home",
+      "url": "https://yourexp.world"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/8gXqzJBrBr"
     },
     {
-      "name": "Blog",
+      "name": "Post",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://yourexp.world/post"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "ko/essentials/markdown",
+        "ko/essentials/code",
+        "ko/essentials/images",
+        "ko/essentials/settings",
+        "ko/essentials/navigation",
+        "ko/essentials/reusable-snippets"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Software",
       "pages": [
-        "api-reference/introduction"
+        "ko/software/introduction"
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "ko/endpoint/get",
+        "ko/endpoint/create",
+        "ko/endpoint/delete"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/rtyd_yourexp",
+    "github": "https://github.com/retryond"
   }
 }
