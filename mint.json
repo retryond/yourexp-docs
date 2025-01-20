@@ -1,87 +1,89 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "font": {
-    "headings": {
-      "family": "Pretendard"
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "Starter Kit",
+    "logo": {
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
     },
-    "body": {
-      "family": "Pretenadrd"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Home",
-      "url": "https://yourexp.world"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Community",
-    "url": "https://discord.gg/8gXqzJ-BrBr"
-  },
-  "primaryTab": {
-    "name": "Information"
-  },
-  "tabs": [
-    {
-      "name": "Korean",
-      "url": "ko"
-    },
-    {
-      "name": "English",
-      "url": "en"
-    }
-  ],
-  "anchors": [ 
-    {
-      "name": "Home",
-      "icon": "house",
-      "url": "https://yourexp.world"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.gg/8gXqzJBrBr"
-    },
-    {
-      "name": "Post",
-      "icon": "newspaper",
-      "url": "https://yourexp.world/post"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Welcome",
-      "pages": [
-        "introduction"
-      ]
-    },
-    {
-      "group": "Korean",
-      "pages": [
-        {
-          "group": "환영합니다",
-          "pages": [{"ko/index"}]
+    "favicon": "/favicon.svg",
+    "colors": {
+        "primary": "#0D9373",
+        "light": "#07C983",
+        "dark": "#0D9373",
+        "anchors": {
+            "from": "#0D9373",
+            "to": "#07C983"
         }
-      ]
+    },
+    "font": {
+        "headings": {
+            "family": "Pretendard"
+        },
+        "body": {
+            "family": "Pretenadrd"
+        }
+    },
+    "topbarLinks": [
+        {
+            "name": "Home",
+            "url": "https://yourexp.world"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "Community",
+        "url": "https://discord.gg/8gXqzJBrBr"
+    },
+    "primaryTab": {
+        "name": "Information"
+    },
+    "tabs": [
+        {
+            "name": "Korean",
+            "url": "ko"
+        },
+        {
+            "name": "English",
+            "url": "en"
+        }
+    ],
+    "anchors": [
+        {
+            "name": "Home",
+            "icon": "house",
+            "url": "https://yourexp.world"
+        },
+        {
+            "name": "Community",
+            "icon": "discord",
+            "url": "https://discord.gg/8gXqzJBrBr"
+        },
+        {
+            "name": "Post",
+            "icon": "newspaper",
+            "url": "https://yourexp.world/post"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Welcome",
+            "pages": [
+                "introduction"
+            ]
+        },
+        {
+            "group": "Korean",
+            "pages": [
+                {
+                    "group": "환영합니다",
+                    "pages": [
+                        "ko/index"
+                    ]
+                }
+            ]
+        }
+    ],
+    "footerSocials": {
+        "x": "https://x.com/rtyd_yourexp",
+        "github": "https://github.com/retryond"
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/rtyd_yourexp",
-    "github": "https://github.com/retryond"
-  }
 }
