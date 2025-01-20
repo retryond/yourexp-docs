@@ -22,7 +22,7 @@
     "body": {
       "family": "Pretenadrd"
     }
-  }
+  },
   "topbarLinks": [
     {
       "name": "Home",
@@ -31,7 +31,7 @@
   ],
   "topbarCtaButton": {
     "name": "Community",
-    "url": "https://discord.gg/8gXqzJBrBr"
+    "url": "https://discord.gg/8gXqzJ-BrBr"
   },
   "primaryTab": {
     "name": "Information"
