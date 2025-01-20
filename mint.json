@@ -71,14 +71,9 @@
             ]
         },
         {
-            "group": "Korean",
+            "group": "환영합니다",
             "pages": [
-                {
-                    "group": "환영합니다",
-                    "pages": [
-                        "ko/index"
-                    ]
-                }
+                "ko/index"
             ]
         }
     ],
